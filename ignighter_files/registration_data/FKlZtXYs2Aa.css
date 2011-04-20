@@ -1,0 +1,70 @@
+/*1303183175,176832697*/
+
+.event_profile .event_upload_image{width:179px}
+.event_profile #rsvp_form{display:inline}
+.event_profile .event_guestlist .uiHeaderNav{margin-left:0}
+.event_profile .event_guestlist .guest_name{height:32px;vertical-align:middle}
+.event_profile .event_subheader{line-height:normal}
+.event_profile .text_exposed_link{display:block;font-size: 11px}
+.event_profile .text_exposed_link a{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zY/r/lROEWMwAjRs.gif) no-repeat right;padding-right:11px}
+.event_profile #feedwall_with_composer{padding-top:2px}
+.event_profile .minifeedwall{padding-top:6px}
+.event_profile .minifeedwall .empty_wall .status{background:none;border:none;text-align:center;margin:12px 0 0}
+.event_profile .empty_wall h2{font-weight:normal;color:#808080}
+.profileInfoSection{margin-bottom:30px}
+.profileInfoSection .emptyInfoSection{text-align:center;font-size: 13px}
+.profileInfoSection .inlineLabel{color:#999}
+.fbProfileExperience .hubPhoto{margin-right:7px}
+.fbProfileExperience .experienceContent{line-height:14px;padding-top:1px}
+.fbProfileExperience .experienceBody,.fbProfileExperience .subexperienceContent{margin-top:2px}
+.fbProfileExperience .subexperiences{margin:6px 0 0 15px}
+.fbProfileExperience .subexperience{padding-bottom:1px}
+.fbProfileExperience .subexperienceContent{margin-left:-3px;width:273px}
+.showAllExperiences .revealerArrow{margin:0 0 2px 5px}
+.showAllExperiences:hover a,.showAllExperiences .mediaRevealer:hover{text-decoration:none}
+.profileInfoTable .highlight{background-color:#fffbe4}
+.profileInfoTable .fbProfileExperience.highlight{left:-5px;padding:5px 0 5px 5px;position:relative;top:-5px}
+.profileInfoTable .afterHighlight{margin-top:-10px}
+.profileInfoTable .highlight .complimentsBlingBox{margin-right:-5px}
+li.showAllExperiences{border-top:1px solid #e5eaf1;padding-top:7px;text-align:center}
+.showAllExperiences:hover{border-top-color:#d8dfea;background-color:#eceff4;cursor:pointer}
+.showAllExperiences a{display:inline-block;padding-bottom:8px}
+.fbProfileInfoExpandedRowWrapper .fbProfileExperience{text-align:left}
+.fbProfileInfoExpandedRowWrapper .revealerWrapper{margin-top:0}
+.fbProfileInfoWorkRowWrapper .fbProfileExperience{text-align:left}
+.fbProfileInfoEducationRowWrapper .fbProfileExperience{text-align:left}
+.mediaRow .mediaPortrait{line-height:14px;padding:0;overflow:hidden;width:75px}
+.mediaRow .mediaPortrait .photo{margin-bottom:5px}
+.mediaRow .mediaPortrait .mediaPageName{overflow:hidden;max-height:28px;word-wrap:break-word}
+.mediaRowWrapper{text-align:center}
+.mediaRowRevealer{line-height:12px}
+.profileInfoTable th.label{color:#999;font-weight:bold;line-height:15px;text-align:left;vertical-align:top;width:90px}
+.nile_profile .profileInfoTable th.label{font-size: 11px;line-height:16px}
+.profileInfoTable .greenLink{color:#060}
+.profileInfoTable td.data{line-height:15px}
+.profileInfoTable td.rightCol{padding:3px 0 0 35px;text-align:right;width:50px}
+.profileInfoTable .sampleImageCaption{text-align:center;width:50px;word-wrap:break-word}
+.profileInfoTable tr.spacer hr{background:#e9e9e9;border-bottom:0;border-style:solid;color:#e9e9e9}
+.profileInfoTable .uiInfoTable .label{color:#666;font-size: 11px;font-weight:normal;padding-top:0}
+.profileInfoTable .uiInfoTable .data{padding-top:0}
+.profileInfoTable .throbber{display:none}
+.profileInfoTable .async_saving .throbber{display:block}
+.profileTagIcon{margin:-2px 0 0 5px;vertical-align:middle}
+.uiInfoTable{border:0;border-collapse:collapse;border-spacing:0;width:100%}
+.uiInfoTable .spacer td{padding:5px 0}
+.noBorder .spacer td{padding:0;visibility:hidden}
+.uiInfoTable .label,
+.uiInfoTable .data,
+.uiInfoTable .rightCol{padding:3px 0 1px 0;text-align:left;vertical-align:top}
+.uiInfoTable .dataRow .data,
+.uiInfoTable .dataRow .rightCol{padding-top:5px}
+.uiInfoTable .data > input,
+.uiInfoTable .data > label input,
+.uiInfoTable .rightCol > input,
+.uiInfoTable .rightCol > label input{margin-left:0}
+.uiInfoTable .label{color:#666;font-weight:bold;padding-right:10px;text-align:right;width:130px}
+.uiInfoTable .dataRow .label{padding-top:8px}
+.uiInfoTable .label .annotation{color:#999}
+.uiInfoTable .rightCol{padding:0 0 0 20px;width:225px}
+
+#bootloader_InDi1 { height: 42px; }

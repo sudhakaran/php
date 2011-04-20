@@ -1,0 +1,71 @@
+/*1303226019,169775555*/
+
+body.plugin{background:transparent;overflow-y:visible}
+#fbRegistrationWidgetTopmost{background-color:#fff}
+.fbRegistrationFooter{text-align:right}
+.fbRegistrationTopSectionBorder{border-bottom:1px solid #e5e5e5;margin:0 15px}
+.fbRegistrationNameField,
+.fbRegistrationPageCategoryField,
+.fbRegistrationPasswordField,
+.fbRegistrationTextField{width:232px}
+.fbRegistrationHubsTypeahead,
+.fbRegistrationNameField,
+.captcha_image{width:240px}
+.fbRegistrationNameField .selected{background:#f0f0f0}
+.fbRegistrationHubsTypeahead .selected .clear{display:none !important}
+.fbRegistrationNameField .selected .photo{height:32px;width:32px;left:4px;top:3px}
+.fbRegistrationNameField .selected .textInput{font-size: 11px;font-weight:bold;padding-bottom:0;padding-left:39px !important;padding-top:8px}
+.fbRegistrationNameField .subText{padding-bottom:5px;padding-left:39px;min-height:12px}
+.fbRegistrationDateField select,
+.fbRegistrationSelectorField{margin:2px 0 0}
+.fbRegistrationNameField .selected .clear{top:5px;right:5px}
+#fbRegistrationTopMsg{margin-top:0}
+#fbRegistrationWidgetTopmost .fbRegistrationTable{margin:20px 0 10px}
+#fbRegistrationWidgetTopmost .fbRegistrationTableSkinny{margin:10px auto;width:255px}
+#fbRegistrationWidgetTopmost .fbRegistrationTable .spacer td{padding-top:10px}
+#fbRegistrationWidgetTopmost .fbRegistrationTable .spacer td hr{background:#eaeaea;color:#eaeaea;height:1px}
+#fbRegistrationWidgetTopmost .fbRegistrationTable .rightCol{padding-left:2px;width:33%;padding-top:9px}
+#fbRegistrationWidgetTopmost form{padding-left:10px}
+.fbRegistrationErrorArea{color:#a40000}
+.fbRegistrationBottomSection{margin-bottom:20px;margin-left:180px;margin-top:10px}
+#fbRegistrationClearBoxContent{border-bottom:2px solid #1d2d5c;border:1px solid black;left:71px;position:absolute;top:103px;width:238px}
+#fbRegistrationClearBoxTop{padding:4px}
+#fbRegistrationClearBoxBottom{padding:4px}
+#fbRegistrationClearBoxArrow{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zV/r/IJYgcESal33.png) no-repeat -480px -188px;display:block;height:9px;left:372px;position:absolute;top:95px;width:13px}
+.fbRegistrationErrorField,
+.fbRegistrationHubsTypeaheadErrorField,
+.fbRegistrationPageErrorField{border:2px solid #dd3f00 !important;margin:-1px !important}
+.fbRegistrationDateErrorField,
+.fbRegistrationErrorField.fbRegistrationSelectorField{border:2px solid #dd3f00 !important;margin:1px -1px -1px !important}
+.fbRegistrationHubsTypeaheadErrorField{width:238px}
+.fbRegistrationErrorArrow{padding-left:3px;padding-top:4px}
+.fbRegistrationTable .fbRegistrationHubsTypeaheadErrorField .wrap{border:0}
+#fbRegistrationFacepile,
+#fbRegistrationFacepileCaption,
+#fbRegistrationFacepileSection{float:left}
+.fbRegistrationRegisterButton{float:left;padding:2px 20px;margin-bottom:5px;margin-right:5px}
+#fbRegistrationFacepileCaption{vertical-align:top}
+.fbRegistrationDivider{border-top:solid 1px #eaeaea}
+#fbRegistrationEnabledNameField{background:none repeat scroll 0 0 #f0f0f0}
+.fbRegistrationNameField .subText,
+.fbRegistrationTextField[disabled],
+.fbRegistrationPasswordField[disabled],
+.fbRegistrationSelectorField[disabled],
+.fbRegistrationDateField select[disabled],
+.fbRegistrationHubsTypeahead .fbRegistrationPageCategoryField[disabled],
+.fbRegistrationHubsTypeahead .selected
+.fbRegistrationPageCategoryField[disabled]{color:#999;background-color:#f0f0f0}
+.fbLoadingIndicator{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zb/r/GsNJNwuI-UM.gif) no-repeat 0 0;display:block;padding-left:5px;margin-top:7px;float:left;height:11px;width:16px}
+.fbRegistrationTable .dataRow .label{width:38%}
+.fbRegistrationTable .dataRow .data{width:5%}
+#fbRegistrationEnabledTopInfo{line-height:14px;padding-top:0;width:auto}
+.fbRegistrationButtonWrapper .uiButton,
+.fbRegistrationButtonWrapper .uiButton input{display:block}
+.fbRegistrationButtonWrapper{vertical-align:top}
+.fbRegistrationButtonExplanation{width:100%}
+.fbRegistrationCheckboxLabel{font-weight:normal}
+#fbRegistrationEnableLink{line-height:14px}
+.captcha_image{height:53px}
+#fbRegistrationLoggedOut{min-height:138px}
+
+#bootloader_8nSk5 { height: 42px; }

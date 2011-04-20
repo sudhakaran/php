@@ -1,0 +1,51 @@
+/*1303151231,176833978*/
+
+.fbPageEdit #globalContainer #content{min-height:150px}
+.fbPageEdit #bottomContent{display:none}
+.fbPageEdit #mainContainer #contentArea{padding:0;width:799px}
+.fbPageEdit #leftCol{padding-top:59px}
+.fbPageEdit .grayArea{min-height:253px;border-top:1px solid #b3b3b3}
+.fbPageEdit .hasRightCol .grayArea{border-right:1px solid #b3b3b3}
+.fbPageEdit #pageFooter #contentCurve{background-color:#f2f2f2}
+.manage_deal td.data{padding-bottom:5px}
+.friendBrowserCheckboxFilters{width:200px;margin:0 auto;float:left}
+.friendBrowserCheckboxFilterHeader{margin-bottom:3px}
+.friendBrowserCheckboxFilterTypeahead{margin-top:3px}
+.friendBrowserCheckboxContent{width:720px;float:right;position:relative}
+.friendBrowserCheckboxContentOnload{opacity:.3}
+.friendBrowserSubTitle{margin-top:2px;margin-bottom:15px}
+.friendBrowserHeader{margin-bottom:15px}
+.friendBrowserPage label{color:#333;font-weight:normal}
+.friendBrowserTypeahead .DOMControl_placeholder{color:#bbb}
+#friendBrowserCheckboxContentPager{margin-left:9px}
+#friendBrowsingCheckboxContentLoadingIndicator{position:absolute;z-index:1;top:40px;left:340px}
+.friendBrowserGrid{width:100%}
+.friend_browser_page_name_box{height:65px;line-height:15px;overflow:hidden;text-align:left;width:110px}
+.friend_browser_addfriend_icon{margin:4px 4px 0 0}
+.friendBrowserRequesting .friendBrowserMutualFriendLink,.friendBrowserRequested .friendBrowserMutualFriendLink,.friendBrowserRequesting .friendBrowserSendingMessage,.friendBrowserRequested .friendBrowserUndoLink{display:none}
+.friendBrowserRequesting .friendBrowserPicture,.friendBrowserRequested .friendBrowserPicture{opacity:.3}
+#editProfileForm input[type=text],
+#editProfileForm textarea{box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-webkit-box-sizing:border-box}
+#editProfileForm .profileSaveErrorWrap{padding-top:4px}
+.fbHubsListToken{margin:4px 0}
+.fbHubsListToken .name{background:#e2e8f6;border:1px solid #bdc7d8;padding:3px 3px 3px 23px;position:relative}
+.fbHubsListToken .name .photo{height:16px;left:2px;position:absolute;top:2px;width:16px}
+.fbHubsListToken .name .remove{position:absolute;right:3px;top:2px}
+.fbHubsListToken .description{border:1px solid #bdc7d8;overflow:hidden}
+.fbHubsListToken .description textarea{border:none;width:100%}
+.fbHubsTypeahead .DOMControl_placeholder{color:#bbb}
+.fbHubsTypeaheadThrobber{display:none;position:absolute;right:6px;top:5px}
+.typeaheadLoading .fbHubsTypeaheadThrobber{display:block}
+.profileEditText{width:100%}
+.profilePhoneCountry{width:160px;white-space:nowrap}
+.editProfileCheckbox{margin-right:2px;vertical-align:middle}
+.uiClearableTypeahead .selected .clear{display:block}
+.uiClearableTypeahead .clear,.uiTypeaheadDisabled .selected .clear{display:none;position:absolute;right:3px;top:2px}
+.uiClearableTypeahead .selected{padding-right:16px}
+.uiTypeaheadDisabled .selected{padding-right:0}
+.photoTypeahead .photo{display:none;height:16px;left:3px;position:absolute;top:2px;width:16px}
+.photoTypeahead .selected .photo{display:block}
+.photoTypeahead .selected .textInput{padding-left:23px}
+.photoTypeahead.uiTypeaheadDisabled .selected .photo{opacity:.30}
+
+#bootloader_Cppzj { height: 42px; }
