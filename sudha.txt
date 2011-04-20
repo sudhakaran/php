@@ -1,0 +1,36 @@
+Create A Repo
+If you’ve found yourself on this page, we’re assuming you’re brand new to Git and GitHub. This guide will walk you through the basics and explain a little bit about how everything works along the way.
+First: Create A Repo
+
+Every time you make a commit with Git, it is stored in a repository (a.k.a. “repo”). To put your project up on GitHub, you’ll need to have a GitHub repository for it to live in.
+More about repositories
+
+    Create a new repo
+
+    Click “New Repository.
+    Click “New Repository
+
+    Fill out the information on this page. When you’re done, click “Create Repository.”
+    Fill in the info
+
+    Congratulations! You have successfully created your first repo!
+
+Next: Create a README for your repo.
+
+While a README isn’t a required part of a GitHub repo, it is a good idea to have one. READMEs are a great place to describe your project or add some documentation such as how to install or use your project.
+More about READMEs
+
+    Create the README file
+
+    In the prompt, type the following code:
+
+    $ mkdir ~/Hello-World
+    $ cd ~/Hello-World
+    $ git init
+    Initialized empty Git repository in /Users/your_user_directory/Hello-World/.git/
+    $ touch README
+
+    Open the new README file found in your Hello-World directory in a text editor and add the text “Hello World!” When you are finished, save and close the file.
+    Commit your README
+
+    Now that you have your README set up, it“s time to commit it. A commit is essentially a snapshot of all the files in your project at a particular point in time. In the prompt, type the following code:
