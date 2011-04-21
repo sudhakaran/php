@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/ani-style.css" type="text/css" />
+<link rel="stylesheet" href="css/fonts-min.css" type="text/css" />
+<style type="text/css"> @import "domtab.css"; </style>
+<script type="text/javascript" src="js/domtab.js"></script>
+<link href="css/jquery.bubblepopup.v2.3.1.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.bubblepopup.v2.3.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/yui-min.js"></script>
+
+<script type="text/javascript">
+YUI({ filter: 'raw' }).use("anim", function(Y) {
+    var anim = new Y.Anim({
+        node: '#demo',
+        to: { opacity: 0 }
+    });
+
+    var onEnd = function() {
+        this.setAttrs({
+            to: { height: 1 },
+            easing: Y.Easing.bounceOut
+        });
+        this.run();
+    };
+
+    anim.once('end', onEnd);
+
+    Y.one('#demo .yui3-remove').on('click', anim.run, anim);
+
+});
+
+</script>
+	<script type="text/javascript">
+<!--
+$(document).ready(function(){
+
+		//create a bubble popup for each DOM element with class attribute as "text", "button" or "link" and LI, P, IMG elements.
+		$('.link, ul.domtabs li').CreateBubblePopup({
+
+									position : 'top',
+									align	 : 'center',
+									
+									innerHtml: 'Take a look to the  source of the content <br /> \
+												to know the persional details!',
+
+									innerHtmlStyle: {
+														color:'#FFFFFF', 
+														'text-align':'center'
+													},
+																		
+									themeName: 	'all-black',
+									themePath: 	'images/jquerybubblepopup-theme'
+								 
+								});
+});
+//-->
+</script>
+<title>OneBundle Project | Bugs</title>
+</head>
+
+<body>
+
+<div id="header-background-simple-gradient">
+	<div id="header">
+    	<div class="logo"><a href="index.html"><img src="images/frmShowLogoImage.gif" alt="onebundle Logo" /></a></div>
+  <div class="header-top">
+        	<div class="header-top-left">
+            	<ul>
+                	<li><img src="images/icon_dash.gif" alt="dashboard" /><a href="index.html">Dashboard</a></li>
+                    <li> | </li>
+                    <li><img src="images/icon_setting.gif" alt="Settings" /><a href="#">MyAccount</a></li>
+                    <li> | </li>
+                    <li><img src="images/icon_task.gif" alt="Task" /><a href="#">My Task</a></li>
+                    <li> | </li>
+                    <li><img src="images/icon_msgcenter.gif" alt="message" /><a href="#">Message Center</a></li>
+                    <li> | </li>
+                    <li><a href="#">Select Project</a><img src="images/arrow.gif" alt="select project" /></li>
+                </ul>
+            </div>
+            <div class="header-top-right">
+            	<ul>
+                    <li><a href="#">Sitemap</a></li>
+                    <li> | </li>
+                    <li><img src="images/ico_help.gif" alt="Help" /><a href="#"><span style="color: #0A9817">Help</span></a></li>
+                    <li> | </li>
+                    <li><img src="images/ico_logoff.gif" alt="logoff" /><a href="#"><span style="color: #7C0316">Logout</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom">
+        	<div class="header-bottom-left">
+            	<ul>
+                	<li><a href="#">Tasks Assigned</a></li>
+                    <li><a href="bugs.html">Bugs Assigned</a></li>
+                    <li><a href="#">Timesheets</a></li>
+                    <li><a href="#">Reports</a></li>
+                </ul>
+            </div>
+        	<div class="header-bottom-right">
+            	Welcome Sudhakaran Pandian
+            </div>
+        </div>
+	</div>
+</div>
+
+<div id="content">
+	<div id="status-bar">
+    	<span class="subtitle">Bugs </span>
+    </div>
+    <div id="example-canvas" class="bd">
+	<div id="demo" class="yui3-module">
+    <div class="yui3-hd">
+        <h4>Himss11 @ Ivesia</h4>
+        <a title="Close this Ad" class="yui3-remove"><em>x</em></a>
+    </div>
+    <div class="yui3-bd">
+       <img src="images/himssbanner.jpg" alt="Himssbanner" />
+    </div>
+	</div>
+	</div>
+    <div class="details">
+        	<span class="details-subhead">Search Bugs Details </span><br />
+			<p>Please use this screen to list or search for bugs. You can edit or delete the bugs displayed or you can add a new bug by clicking the "Add" button. </p>
+    </div>
+    
+    <div class="domtab">
+	<ul class="domtabs">
+		<li><a href="#what">Simple search</a></li>
+		<li><a href="#how">Advanced Search</a></li>
+		<li><a href="#pr">Saved Search</a></li>
+	</ul>
+	<div>
+		<h2><a name="what" id="what">Personal Details</a></h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+  	</div>
+	<div>
+		<h2><a name="how" id="how">Application Settings</a></h2>
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu   posuere orci. Phasellus risus sapien, viverra id molestie vel, sodales   vel risus. Sed mattis lorem sed felis blandit sit amet bibendum turpis   dictum. Phasellus ullamcorper lacus nec ante auctor nec fermentum massa   molestie. Nulla id magna vel quam dignissim ultricies eget vel risus.   Curabitur consequat ipsum quis dolor ultrices egestas. Quisque viverra   vulputate lorem, ut tempus ante porttitor quis. Donec odio orci,   convallis nec ornare sit amet, vestibulum vitae libero. Ut a urna ac   elit interdum auctor. Quisque luctus, est eu imperdiet iaculis, quam   lectus imperdiet dolor, pharetra convallis sapien enim et metus. Nullam   nec turpis elit. Vivamus congue convallis ante in dignissim. Nulla   lectus massa, congue tincidunt tempor eu, elementum vel nunc. Maecenas a   arcu ut ante interdum luctus. Duis iaculis est lacinia enim tempus   venenatis. </p>
+<p> Phasellus sed orci sit amet velit viverra mattis a in augue.   Pellentesque tempor ligula vitae leo dignissim venenatis. Suspendisse   consequat rhoncus malesuada. Praesent nec nulla at metus congue   ultricies. Etiam interdum fringilla mi, ac laoreet nulla interdum a. Nam   sit amet ante vitae felis condimentum rutrum non non dolor. Etiam   tempus velit vitae nibh dictum sit amet molestie nunc iaculis.   Pellentesque pretium, diam at semper vestibulum, diam erat auctor purus,   at hendrerit quam enim nec erat. Vestibulum euismod eleifend nulla,   interdum cursus sem gravida et. Aliquam magna quam, molestie quis   pulvinar vitae, faucibus vitae quam. Aliquam et lectus eget turpis   sollicitudin adipiscing a nec massa. Vestibulum tincidunt, lacus ac   blandit egestas, justo mauris iaculis enim, sit amet fringilla sem dolor   vel erat. Proin feugiat ultrices iaculis. Sed id mauris non dui rutrum   tincidunt quis iaculis libero. Vestibulum tellus lacus, porta vel cursus   nec, pellentesque a risus. Quisque rhoncus dignissim molestie. Morbi   malesuada aliquet dui vel tristique. In a turpis sem, vitae iaculis   massa. </p>
+
+  	</div>
+	<div>
+		<h2><a name="pr" id="pr">Previous and next links</a></h2>
+		<p> Sed pretium, augue sit amet mattis dapibus, eros enim vehicula lacus,   eget faucibus velit ligula at ligula. Proin vel tellus at sem pretium   pretium vitae in odio. Quisque et dolor libero, eu pharetra nisl. Cum   sociis natoque penatibus et magnis dis parturient montes, nascetur   ridiculus mus. Fusce vitae lacus ac dolor venenatis tempor eu id enim.   Nulla id turpis lectus. Vivamus volutpat vehicula est, at convallis elit   dapibus sed. Praesent viverra lacinia nunc sed scelerisque. Nunc dictum   justo eu tortor vehicula feugiat. Duis sodales pretium dui, vel ornare   erat posuere gravida. Nunc interdum nisl quis urna tempus et feugiat   lectus ornare. Quisque neque dui, ullamcorper vitae ultricies id,   sagittis id urna. Curabitur justo diam, posuere ut malesuada in,   consectetur non ante. </p>
+<p> Praesent mi orci, sodales at consectetur condimentum, accumsan a eros.   Pellentesque quis lacus diam, quis posuere elit. Vivamus imperdiet   hendrerit ornare. Nunc rhoncus neque vitae libero tincidunt sit amet   vulputate turpis fermentum. Integer posuere blandit nisl vel porta.   Aenean sagittis nibh at sapien facilisis placerat. Phasellus id ipsum   sed sem pretium eleifend et molestie tortor. Curabitur convallis sapien   sit amet ligula vulputate lobortis. Sed vehicula, eros sed feugiat   aliquet, leo arcu dictum tortor, in imperdiet nisi magna sit amet   ligula. Etiam eleifend dapibus tempor. Aliquam metus nisl, pharetra   vitae tincidunt in, dignissim quis erat. Duis vel metus ac leo egestas   venenatis. Nam aliquam pretium tortor sit amet placerat. Donec quis   ligula arcu, quis laoreet neque. Phasellus luctus, dolor id malesuada   sollicitudin, lectus risus ultrices lorem, eu feugiat ante libero at   orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices   posuere cubilia Curae; Phasellus lobortis auctor aliquet. Morbi nisi   nisi, euismod sed commodo quis, iaculis id turpis. </p>
+
+  	</div>
+	</div>
+</div>
+
+<div id="footer">
+<p>Copyright &copy; 2005-09 Ivesia Solutions. All rights reserved. Version: 1.6.1 </p> </div>
+</body>
+</html>
