@@ -48,11 +48,11 @@
 	}
 	/* Commons--------------------------------------------------------*/
 	::-moz-selection {
-		background:#f09b77;
+		background:#D2B55B;
 		color:#fff;
 	}
 	::selection {
-		background:#f09b77;
+		background:#D2B55B;
 		color:#fff;
 	}
 	body {
@@ -71,7 +71,7 @@
 	/* parallax--------------------------------------------------------*/
 	.parallax {
 		width:100%;
-		height:280px;
+		height:380px;
 		padding:0;
 		margin:0;
 		background-attachment:fixed;
@@ -116,50 +116,6 @@
 		height:800px;
 		margin:-500px auto 0 auto;
 	}
-	
-	/* ////////////////////////////////////////////////// */
-	.container {
-		margin: 0 auto;
-		padding: 0;
-		position: relative;
-		width: 1062px;
-	}
-	
-	
-	/* #Clearing================================================== */
-	 /* Self Clearing Goodness */
-	 .container:after {
-		content:"\0020";
-		display:block;
-		height:0;
-		clear:both;
-		visibility:hidden;
-	}
-	 /* Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row"> */
-	 .clearfix:before, .clearfix:after, .row:before, .row:after {
-		content:'\0020';
-		display:block;
-		overflow:hidden;
-		visibility:hidden;
-		width:0;
-		height:0;
-	}
-	 .row:after, .clearfix:after {
-		clear:both;
-	}
-	 .row, .clearfix {
-		zoom:1;
-	}
-	 /* You can also use a <br class="clear" /> to clear columns */
-	 .clear {
-		clear:both;
-		display:block;
-		overflow:hidden;
-		visibility:hidden;
-		width:0;
-		height:0;
-	}
-
 
 	</style>
         <!-- JavaScripts -->
@@ -172,7 +128,15 @@
 <!--start parallax 1-->
 
      <div id="parallax-1" class="parallax fixed" style="background-image: url(images/parallax/parallax-1.jpg);">
-
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                     <div class="sixteen columns">
+                       <h2 class="white cutting">Gofrugal&nbsp;&nbsp;&nbsp;<span class="siteColor">Home</span></h2>
+                    </div>
+                </div>  
+            </div>
+         </div>
      </div>
 
 <!--end parallax-->
@@ -180,7 +144,15 @@
 <!--start parallax 2-->
 
      <div id="parallax-2" class="parallax fixed" style="background-image: url(images/parallax/parallax-2.jpg);">
-
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns"> 
+                        <ul id="twitter"></ul>
+                    </div>
+                </div>  
+            </div>
+         </div>
      </div>
 
 <!--end parallax 2-->   
@@ -189,7 +161,18 @@
 <!--start parallax 3-->
 
      <div id="parallax-3" class="parallax fixed" style="background-image: url(images/parallax/parallax-3.jpg);">
-
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                    	<div class="imageClip2">
+							<!--<img alt="" src="images/parallax/model-clipped-2.png" class="scale-with-grid" />-->
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
      </div>
 
 <!--end parallax 3-->    
@@ -198,7 +181,15 @@
 <!--start parallax 4-->
 
      <div id="parallax-4" class="parallax fixed" style="background-image: url(images/parallax/parallax-4.jpg);">
-
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3><span class="large">CREATIVE.</span> <span class="largeBold">ARTISTIC.</span> <span class="large">PASSIONATE.</span></h3>
+                    </div>
+                </div>
+            </div>
+         </div>
      </div>
 
 <!--end parallax 4-->
@@ -207,7 +198,17 @@
 <!--start parallax 5-->
 
      <div id="parallax-5" class="parallax fixed" style="background-image: url(images/parallax/parallax-5.jpg);">
-
+         <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">    
+                        <h3><span class="largeBold">How can I</span> <span class="large">control my life</span>
+                            <br><span class="medium">when I can't</span> <span class="mediumBold">control my hair?</span>
+                        </h3>
+                    </div>
+                </div>  
+            </div>
+         </div>
      </div>
 
 <!--end parallax 5-->
@@ -216,11 +217,18 @@
 <!--start parallax 6-->
 
      <div id="parallax-6" class="parallax fixed" style="background-image: url(images/parallax/parallax-6.jpg);">
-        <div class="container">
-            <div class="sixteen columns">    
-                <h3><span class="largeBold">Let's live a</span> <span class="large">Healthy and a Holistic life!</span> <br><span class="medium">where I can get</span> <span class="mediumBold">Healthy Food?</span></h3>
+        <div class="quoteWrap">
+            <div class="quote">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <h3>
+                        <span class="large">Visit our</span> <span class="largeBold">salon</span>
+                        <br><span class="medium">in the heart of</span> <span class="mediumBold">Melbourne.</span> 
+                        </h3>
+                    </div>
+                </div>  
             </div>
-        </div>
+         </div>
      </div>
 
 <!--end parallax 6-->
