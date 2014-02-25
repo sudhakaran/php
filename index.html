@@ -1,46 +1,95 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Untitled Document</title>
-<style>
-#cloud_soln { height:328px; width:402px; display:block;position:relative;}
-.graphic {z-index:1;}
-.earth {
- background-image: url('gearth.jpg');
-  width: 130px;
-  height: 130px;
-  box-shadow: 4px 30px 21px -20px #000000;
-  background-size: 300px;
-  border-radius: 50%;
-  position: absolute;
-  animation: 4s linear 0s normal none infinite rotate;
-  	-moz-animation: 4s linear 0s normal none infinite rotate;
-  		-webkit-animation: 4s linear 0s normal none infinite rotate;
-  z-index:-1;
-  top:103px;
-  left:142px;
+<style>html{
+  background: black;
+  height: 100%;
+  position: relative;
 }
 
-@keyframes rotate {  
-0% { background-position: 0px; }
-100% { background-position: 300px; }
+.container{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
 }
-@-moz-keyframes rotate {  
-0% { background-position: 0px; }
-100% { background-position: 300px; }
+
+.square{
+  height: 94%;
+  width: 94%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -47% 0 0 -47%;
 }
-@-webkit-keyframes rotate {  
-0% { background-position: 0px; }
-100% { background-position: 300px; }
+
+.black{ 
+  background: black;  
+  animation: rotate 10s infinite linear; 
+}
+
+@keyframes rotate{
+  0%{ transform: rotate(0deg); }
+	100%{ transform: rotate(360deg); }	
 }
 </style>
-</head>
-
-<body>
-<div id="cloud_soln">
-    <div class="earth"></div>
-    <span class="graphic"><img src="cloud-soln.png" width="402" height="328"></span>
+<div class="container">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
+<div class="square">
+<div class="square black">
 </div>
-</body>
-</html>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
