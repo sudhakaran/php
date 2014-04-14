@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Tamil Daily Calender</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+
+$(function() {
+	for(var d=1; d<=31; d++)
+	{
+		$('#date').append('<option value="'+d+'">'+d+'</option>');
+	}
+	
+	for(var m=1; m<=12; m++)
+	{
+		$('#month').append('<option value="'+m+'">'+m+'</option>');
+	}
+	
+	for(var y=2007; y<=2014; y++)
+	{
+		$('#year').append('<option value="'+y+'">'+y+'</option>');
+	}
+});
+
+
+function showDate()
+{
+		var dd = $('#date option:selected').val();
+		var mm = $('#month option:selected').val();
+		if(mm<10)
+		{
+			mm = '0'+mm;
+		}
+		var yy = $('#year').val();
+		
+		if(dd == '' || mm == '' || yy == '')
+		{
+			$('#error').html("Enter Valid Date").show().fadeOut(2000);
+		}
+		var today = dd+mm+yy;
+		console.log(today);
+		$('#image').html('<img src="http://www.tamildailycalendar.com/'+yy+'/'+today+'.jpg" />')
+}
+</script>
+<style>
+#error { background: red; padding:10px; color:#fff; display:none; width:200px;}
+</style>
+</head>
+
+<body>
+
+  <p>
+    <label for="date">Date</label>
+    <select name="date" id="date">
+      <option value="date">-Date-</option>
+    </select>
+    <label for="month">Month</label>
+    <select name="month" id="month">
+      <option value="month">-Month-</option>
+    </select>
+    <label for="year">Year</label>
+    <select name="year" id="year">
+      <option value="year">-Year-</option>
+    </select>
+  </p>
+<p>
+    <input type="submit" name="button" id="button" value="Submit" onClick="showDate();">
+  </p>
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="error"></div>
+  <div id="image"></div>
+  
+
+</body>
+</html>
