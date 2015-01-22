@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Google Static Maps</title>
+<script type="text/javascript">
+function showMap() {
+	var place = document.getElementById('myPlace').value;
+	var Zoom = document.getElementById('zoom').value;
+	document.getElementById("map").src = "https://maps.googleapis.com/maps/api/staticmap?center="+place+"&zoom="+Zoom+"&size=500x250&maptype=roadmap&scale=2&markers=color:red|"+place ;
+}
+</script>
+</head>
+
+<body>
+<label for="myPlace">Enter Your Place</label>
+<input type="text" name="myPlace" id="myPlace"> 
+Zoom 
+<label for="zoom"></label>
+<select name="zoom" id="zoom" onChange="showMap()">
+<option value="15">15</option>
+<option value="14">14</option>
+<option value="13" selected>13</option>
+<option value="12">12</option>
+<option value="11">11</option>
+<option value="10">10</option>
+<option value="9">9</option>
+</select>
+<input type="submit" name="button" id="button" value="Submit" onClick="showMap()">
+<br>
+<br>
+<br>
+
+<img id="map" src="" />
+
+</body>
+</html>
