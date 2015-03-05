@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Google</title>
+<style>
+div {
+	height:54px;
+	width:67px;
+	background:url(http://www.google.co.in/logos/2012/muybridge12-hp-f.jpg) no-repeat 0 0;
+	-webkit-animation-name: move;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function:  steps(12, end);
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-play-state: running;
+	-webkit-transform: scale(3,3);
+	margin: 4em;
+}
+
+div:hover {
+	-webkit-animation-play-state:paused;	
+}
+
+@-webkit-keyframes move {
+	0% {background-position:0 0}
+	
+	100% {background-position:-804px 0;}
+}
+</style>
+</head>
+
+<body>
+<div></div>
+</body>
+</html>
