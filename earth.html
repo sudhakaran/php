@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Google Earth rotate</title>
+<style>
+div {
+	height:159px;
+	width:159px;
+	border-radius:50%;
+	box-shadow:0 0 10px #000, inset 0 0 50px #000;
+	
+	background:url(gearth.jpg) 0 0;
+	-webkit-animation-name:earth;
+	-webkit-animation-duration:5s;
+	-webkit-animation-delay:0s;
+	-webkit-animation-direction:normal;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-play-state:running;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode:forwards;	
+}
+
+@-webkit-keyframes earth {
+	from{ background-position: 0 0; }
+	to{ background-position: -318px 0; }
+}
+
+</style>
+</head>
+
+<body>
+<div></div>
+</body>
+</html>
