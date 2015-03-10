@@ -11,5 +11,53 @@
   <p>The .load() method, unlike <a href="http://api.jquery.com/jQuery.get/">$.get()</a>, allows us to specify a portion of the remote document to be inserted. This is achieved with a special syntax for the url parameter. If one or more space characters are included in the string, the portion of the string following the first space is assumed to be a jQuery selector that determines the content to be loaded.</p>
   <p>We could modify the example above to use only part of the document that is fetched:</p>
 </div>
+<div id="entry-longdesc">
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td><div>1</div></td>
+          <td><pre><div><div>$( "#result" ).load( "ajax/test.html #container" );</div></div>
+          </pre></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>When this method executes, it retrieves the content of ajax/test.html, but then jQuery parses the returned document to find the element with an ID of container. This element, along with its contents, is inserted into the element with an ID of result, and the rest of the retrieved document is discarded.</p>
+  <p>jQuery uses the browser's .innerHTML property to parse the retrieved document and insert it into the current document. During this process, browsers often filter elements from the document such as &lt;html&gt;, &lt;title&gt;, or &lt;head&gt; elements. As a result, the elements retrieved by .load() may not be exactly the same as if the document were retrieved directly by the browser.</p>
+  <h4 id="script-execution">Script Execution</h4>
+  <p>When calling .load() using a URL without a suffixed selector expression, the content is passed to .html() prior to scripts being removed. This executes the script blocks before they are discarded. If .load() is called with a selector expression appended to the URL, however, the scripts are stripped out prior to the DOM being updated, and thus are <em>not</em> executed. An example of both cases can be seen below:</p>
+  <p>Here, any JavaScript loaded into #a as a part of the document will successfully execute.</p>
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td><div>1</div></td>
+          <td><pre><div><div>$( "#a" ).load( "article.html" );</div></div>
+          </pre></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>However, in the following case, script blocks in the document being loaded into #b are stripped out and not executed:</p>
+  <div>
+    <table>
+      <tbody>
+        <tr>
+          <td><div>1</div></td>
+          <td><pre><div><div>$( "#b" ).load( "article.html #target" );</div></div>
+          </pre></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<h3>Additional Notes:</h3>
+<div>
+  <ul>
+    <li>Due to browser security restrictions, most "Ajax" requests are subject to the <a title="Same Origin Policy on Wikipedia" href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>; the request can not successfully retrieve data from a different domain, subdomain, port, or protocol.</li>
+  </ul>
+</div>
+<p>&nbsp;</p>
 </body>
 </html>
